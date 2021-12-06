@@ -8,12 +8,29 @@
 </head>
 
 <style>
-    .header-links{
-        display:flex;
-
+    body{
+        margin:0;
     }
 
 
+    .header-links{
+        display:flex;
+        justify-content:space-between;
+        padding:0 70px; /* Make closer*/
+        background:#1F2937;
+        height:70px;
+    }
+
+    .links{
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    a{
+        color:aliceblue;
+        text-decoration: none;
+    }
 
 
 </style>
@@ -31,9 +48,13 @@
     </div>
 
     <div class="head">
-        This website is awesome
+        <div class="large-text">
+            This website is awesome
+        </div>
+        <div class="small-text">
         This website has some subtext that goes here under the manin title. It's a smaller front and the color is lower contrast
-        Signup
+        </div>
+        <button type="button">Sign up</button>
         Image
     </div>
 
