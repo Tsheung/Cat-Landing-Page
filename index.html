@@ -32,6 +32,28 @@
         text-decoration: none;
     }
 
+    .large-text{
+        font-size:48px;
+        color:#F9FAF8;
+        font-weight:800;
+    }
+
+    .small-text{
+        font-size:18px;
+        color:#E5E7EB;
+    }
+
+    .left{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .head{
+        display:flex;
+        background:#1F2937;
+    }
+
+
 
 </style>
 
@@ -48,17 +70,16 @@
     </div>
 
     <div class="head">
-        <div class="large-text">
-            This website is awesome
+        <div class="left">
+            <div class="large-text">
+                This website is awesome
+            </div>
+            <div class="small-text">
+            This website has some subtext that goes here under the manin title. It's a smaller front and the color is lower contrast
+            </div>
+            <button type="button">Sign up</button>
         </div>
-        <div class="small-text">
-        This website has some subtext that goes here under the manin title. It's a smaller front and the color is lower contrast
-        </div>
-        <button type="button">Sign up</button>
-        Image
         <img src="grass-cat.jpeg" alt="cat" width=400px>
-
-
     </div>
 
     <div class="body">
