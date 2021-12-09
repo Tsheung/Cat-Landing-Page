@@ -1,0 +1,154 @@
+body{
+    margin:0;
+}
+
+
+.header-links{
+    display:flex;
+    justify-content:space-between;
+    padding:0 70px; 
+    background:#1F2937;
+    height:70px;
+}
+
+.links{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:18px;
+}
+
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.large-text{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:800;
+}
+
+.small-text{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.left{
+    display:flex;
+    flex-direction:column;
+    padding-right:30px;
+}
+
+.head{
+    display:flex;
+    background:#1F2937;
+    padding: 50px 70px;
+    gap:10px;
+    justify-content:center;
+}
+
+button{
+    width:90px;
+    height:25px;
+    background-color:#3882F6; 
+    border:none;
+    color:white;
+    border-radius:5px;
+    font-weight:bold;
+    margin-top:15px;
+    font-size:12px;
+}
+
+.top{
+    display:flex;
+    justify-content:center;
+    font-size:26px;
+    margin: 20px 0
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    max-width:200px;
+    text-align:center;
+}
+
+.img1 > img,
+.img2 > img,
+.img3 > img,
+.img4 > img {
+    border-radius:10px;
+    border-style:solid;
+    border-color:#8AFFC1;
+}
+
+.images{
+    display:flex;
+    justify-content:center;
+    margin-bottom:60px;
+    gap:40px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.quote{
+    background:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#q{
+    color:#1F2937;
+    font-size:36px;
+    max-width:700px;
+}
+
+#author{
+    max-width:600px;
+    align-self:flex-end;
+    padding-right:200px;
+}
+
+.action{
+    background:#3882F6;
+    padding:10px;
+    margin:80px;
+    display:flex;
+    justify-content:space-around;
+    border-radius:5px;
+}
+
+#action{
+    color:white;
+    font-weight:bold;
+    height:5px;
+}
+
+#signup{
+    color:#E5E7EB;
+}
+
+#button2{
+    color:white;
+    font-weight:bold;
+    border-style:solid;
+    display:flex;
+    align-items:center;
+    padding:0px 20px;
+    border-radius:5px;
+}
+
+.footer{
+    color:#E5E7EB;
+    background:#1F2937;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
