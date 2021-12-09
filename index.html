@@ -85,12 +85,22 @@
         text-align:center;
     }
 
+    .img1 > img,
+    .img2 > img,
+    .img3 > img,
+    .img4 > img {
+        border-radius:5px;
+        border-style:solid;
+        border-color:blue;
+    }
+
     .images{
         display:flex;
         justify-content:center;
         margin-bottom:60px;
-        gap:20px;
+        gap:40px;
         align-items:center;
+        flex-wrap:wrap;
     }
 
     .quote{
@@ -124,6 +134,7 @@
     #action{
         color:white;
         font-weight:bold;
+        height:5px;
     }
 
     #signup{
@@ -169,10 +180,10 @@
     <div class="head">
         <div class="left">
             <div class="large-text">
-                This website is awesome
+                Big Cat Fanpage
             </div>
             <div class="small-text">
-            This website has some subtext that goes here under the manin title. It's a smaller front and the color is lower contrast
+                Cats are super cute and adorable. Please enjoy all of the cat photos.
             </div>
             <button type="button">Sign up</button>
         </div>
@@ -181,43 +192,43 @@
 
     <div class="mid">
         <div class="top">
-            Some random information.
+            A variety of cat expressions.
         </div>
         <div class="images">
             <div class="img1">
                 <img src="cat1.jpg" alt="grey cat with green eyes" width=200px>
-                <p>this is some subtext under illustration or Image</p>
+                <p>Staring into your soul</p>
             </div>
             <div class="img2">
                 <img src="cat2.jpg" alt="brown cat sitting on leaves" width=200px>
-                <p>this is some subtext under illustration or Image</p>
+                <p>Wisely observing the world</p>
             </div>
             <div class="img3">
                 <img src="cat3.jpg" alt="cute orange kitten" width=200px>
-                <p>this is some subtext under illustration or Image</p>
+                <p>Too much cuteness</p>
             </div>
             <div class="img4">
                 <img src="cat4.jpg" alt="orange cate with stripes" width=200px>
-                <p>this is some subtext under illustration or Image</p>
+                <p>Waiting patiently for food</p>
             </div> 
         </div>
     </div>
 
     <div class="quote">
-        <p id="q">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who know? all I is that it looks nice.</p>
-            <p id="author">-Thor, God of Thunder</p>
+        <p id="q">"There will never be enough naps, food or toys in this world for any cat."</p>
+            <p id="author">-Random Cat</p>
     </div>
 
     <div class="action">
         <div class="text">
-            <p id="action">Call to action! It's time!</p>
-            <p id="signup">Sign up for our product by clicking that button right over there!</p>
+            <p id="action">It's time to join the cat lover nation!</p>
+            <p id="signup">Sign up for more cat information!</p>
         </div>
         <p id="button2">Sign up</p>
     </div>
 
     <div class="footer">
-        Copyright The Odin Project 2021
+        Copyright © The Odin Project 2021
     </div>
 
 
